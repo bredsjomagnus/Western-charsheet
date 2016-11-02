@@ -1,6 +1,6 @@
 ROLL20 CHARACTERSHEET
 ----------------------
-##WHAT IT IS
+####WHAT IT IS
 Western roleplaying game charsheet for Roll20 custom sheets.
 
 ####Known issues
