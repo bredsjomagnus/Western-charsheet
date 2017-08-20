@@ -7,14 +7,13 @@
 }
 
 .sheet-container {
-    
     width: 1200px;
     height: 5000px;
     background-color: #edeae5;
     /*background-image: image("oldpaper.jpg");*/
     /*font-family: 'Lora', serif;*/
     display: block;
-    
+
 }
 .sheet-noinput{
     background-color: #edeae5;
@@ -39,12 +38,12 @@ input.sheet-tab{
     left: 8px;
     width: 180px;
     height: 29px;
-    cursor: pointer;    
+    cursor: pointer;
 	position: relative;
 	opacity: 0;
 	z-index: 99;
     margin-bottom:10px;
-    cursor: pointer; 
+    cursor: pointer;
     box-shadow:0px 0px 5px black;
 }
 
@@ -54,8 +53,8 @@ span.sheet-tab {
     font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
     text-align: center;
     display: inline-block;
-	font-size: 14px;	 
-	color: #898989; 
+	font-size: 14px;
+	color: #898989;
 	font-weight: bold;
 	border-radius: 1px;
 	width: 180px; /*originally 87px*/
@@ -68,8 +67,6 @@ span.sheet-tab {
     border:1px solid #8a8276;
 }
 
-
-
 input.sheet-pageone-tab:checked + span.sheet-pageone-tab,
 input.sheet-pagetwo-tab:checked + span.sheet-pagetwo-tab,
 input.sheet-pagethree-tab:checked + span.sheet-pagethree-tab,
@@ -77,7 +74,7 @@ input.sheet-pagefour-tab:checked + span.sheet-pagefour-tab,
 input.sheet-pagefive-tab:checked + span.sheet-pagefive-tab,
 input.sheet-pagesix-tab:checked + span.sheet-pagesix-tab{
 
-    background: #d0c8bc;  /*originally ab8b57*/  
+    background: #d0c8bc;  /*originally ab8b57*/
     color: #b14542;/*#903836;*/ /*originally white*/
 	border-radius: 1px;
     border:1px solid #736d65;
@@ -93,14 +90,14 @@ input.sheet-tab::before{
 input.sheet-pageone-tab::before
 {
     content: url("https://dl.dropboxusercontent.com/u/42857918/tabbkaraktar.jpg");
-    
+
     text-align: center;
 
-    
+
     background: #fff;
     color: black;
     font-family:GreatVibesRegular;
-    
+
     width: 200px;
     height: 20px;
     font-size: 18px;
@@ -114,11 +111,11 @@ input.sheet-pagetwo-tab::before
 
     text-align: center;
 
-    
+
     background: #fff;
     color: black;
     font-family:GreatVibesRegular;
-    
+
     width: 200px;
     height: 20px;
     font-size: 18px;
@@ -132,12 +129,12 @@ input.sheet-pagethree-tab::before
     content: url("https://dl.dropboxusercontent.com/u/42857918/tabbskillsen.jpg");
 
     text-align: center;
-    
-    
+
+
     background: #fff;
     color: black;
     font-family:GreatVibesRegular;
-    
+
     width: 200px;
     height: 20px;
     font-size: 18px;
@@ -151,11 +148,11 @@ input.sheet-pagefour-tab::before
 
     text-align: center;
 
-    
+
     background: #fff;
     color: black;
     font-family:GreatVibesRegular;
-    
+
     width: 200px;
     height: 20px;
     font-size: 18px;
@@ -169,11 +166,11 @@ input.sheet-pagefive-tab::before
 
     text-align: center;
 
-    
+
     background: #fff;
     color: black;
     font-family:GreatVibesRegular;
-    
+
     width: 200px;
     height: 20px;
     font-size: 18px;
@@ -187,11 +184,11 @@ input.sheet-pagesix-tab::before
 
     text-align: center;
 
-    
+
     background: #fff;
     color: black;
     font-family:GreatVibesRegular;
-    
+
     width: 200px;
     height: 20px;
     font-size: 18px;
@@ -254,8 +251,8 @@ img{
     padding-left: 10px;
     padding-top: 5px;
 	padding-bottom: 10px;
-	padding-right: 10px;      
-    
+	padding-right: 10px;
+
 }*/
 .sheet-row:before{
 	display: block;
@@ -278,7 +275,7 @@ img{
     font-family: 'Bevan', cursive;
     font-size: 30px;
     color: #b24545;
-    
+
 }
 .sheet-pageone .sheet-firstcolumn {
     float: left;
@@ -355,7 +352,7 @@ img{
     height: 100%;
     width:200px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-skador-firstcolumn:after{
     clear: both;
@@ -368,7 +365,7 @@ img{
     height: 100%;
     width:600px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-skador-secondcolumn:after{
     clear: both;
@@ -380,7 +377,7 @@ img{
     height: 100%;
     width:300px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-skador-thirdcolumn:after{
     clear: both;
@@ -393,7 +390,7 @@ img{
     height: 100%;
     width:560px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-skills-col1:after{
     clear: both;
@@ -405,7 +402,7 @@ img{
     height: 100%;
     width:560px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-skills-col2:after{
     clear: both;
@@ -418,7 +415,7 @@ img{
     width:400px;
     padding-left:10px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-tabeller-col1:after{
     clear: both;
@@ -431,7 +428,7 @@ img{
     /*padding-left: 10px;*/
     width:720px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-tabeller-col2:after{
     clear: both;
@@ -444,7 +441,7 @@ img{
     height: 100%;
     width:560px;
     content: " ";
-    display: block;  
+    display: block;
 }
 .sheet-allwidthtable{
     margin-top: 20px;
@@ -453,7 +450,7 @@ img{
     width:1120px;
     content: " ";
     display: block;
-    
+
 }
 
 .sheet-middle{
@@ -475,7 +472,7 @@ img{
 }
 .sheet-tabellcol1{
     margin-left: 20px;
-    
+
 }
 .sheet-center{
     text-align: center;
@@ -487,15 +484,15 @@ img{
     /*border: 1px dotted #9e8866;*/
     padding: 1px;
     margin-right: 20px;
-    
-    
+
+
 }
 .sheet-skadegrupp-tabell{
     margin: auto;
 }
 .sheet-skadegrupp-tabell td{
     width: 30px;
-    
+
 }
 .sheet-holster{
     float: left;
@@ -505,7 +502,7 @@ img{
     margin-left: 50px;
 }
 .sheet-bonustable td{
-    min-width: 30px;   
+    min-width: 30px;
 }
 .sheet-bonustable th{
     text-align: center;
@@ -533,7 +530,7 @@ img{
     background-color: #d0c8bc;
     color: black;
     font-size: 13px;
-        
+
 }
 .sheet-collapsed{
     border-collapse: collapse;
@@ -544,14 +541,14 @@ img{
 .sheet-rolltemplate-skills{
     background-color: #edeae5;
     font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
-    
+
     border: 1px solid #000;
     padding-left:10px;
     padding-right: 10px;
     padding-top:2px;
     padding-bottom:2px;
     width:189px;
-    
+
 }
 .sheet-rolltemplate-skills th{
     text-align:center;
@@ -560,7 +557,7 @@ img{
     font-size:18px;
 }
 .sheet-diamondrow{
-    
+
     width:189px;
     height:10px;
     display: block;
@@ -605,14 +602,14 @@ img{
 .sheet-rolltemplate-chock{
     background-color: #edeae5;
     font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
-    
+
     border: 1px solid #000;
     padding-left:10px;
     padding-right: 10px;
     padding-top:2px;
     padding-bottom:2px;
     width:189px;
-    
+
 }
 .sheet-rolltemplate-chock th{
     text-align:center;
@@ -657,14 +654,14 @@ img{
 .sheet-rolltemplate-stridsvana{
     background-color: #edeae5;
     font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
-    
+
     border: 1px solid #000;
     padding-left:10px;
     padding-right: 10px;
     padding-top:2px;
     padding-bottom:2px;
     width:189px;
-    
+
 }
 .sheet-rolltemplate-stridsvana th{
     text-align:center;
@@ -706,14 +703,14 @@ img{
 .sheet-rolltemplate-strid{
     background-color: #edeae5;
     font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
-    
+
     border: 1px solid #000;
     padding-left:10px;
     padding-right: 10px;
     padding-top:2px;
     padding-bottom:5px;
     width:189px;
-    
+
 }
 .sheet-rolltemplate-strid th{
     text-align:center;
@@ -768,14 +765,14 @@ img{
 
 .sheet-pros{
     width: 350px;
-    
-    
+
+
 }
 .sheet-geer{
-    width: 380px;   
+    width: 380px;
 }
 .sheet-cloth{
-    width: 350px;   
+    width: 350px;
 }
 
 .sheet-input{
@@ -784,7 +781,7 @@ img{
 
 .charsheet textarea{
     margin-left:50px;
-    
+
 }
 .sheet-textarea-person{
     margin-left: 50px;
@@ -793,7 +790,7 @@ img{
 }
 th {
     text-align: left;
-    
+
 }
 .sheet-allwidth{
     float: left;
@@ -802,7 +799,7 @@ th {
     content: " ";
     margin: 10px;
     padding: 10px;
-    
+
 }
 .sheet-textarea-utseende{
     margin-left: 50px;
@@ -881,6 +878,3 @@ th {
 .sheet-length30 {
     width:625px;
 }
-
-
-
